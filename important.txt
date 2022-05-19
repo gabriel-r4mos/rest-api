@@ -1,0 +1,53 @@
+create user 'pi'@'localhost' identified by 'password';
+grant all privileges on *.* to 'pi'@'localhost';
+
+create database pi;
+
+sempre selecionar JSON ao usar o postman
+
+{
+    "pes_id":"0",
+    "pes_cpf":"859372576",
+    "pes_nome":"gabriel ramos galvão",
+    "pes_email":"gabriel@whatsapp.com",
+    "pes_nasc": "2002-05-13",
+    "pes_senha":"sickomode"
+}
+
+{
+    "aco_id": "0",
+    "aco_nome": "apartamento na praia",
+    "aco_preco": 500.50,
+    "aco_estado": "São Paulo",
+    "aco_cidade": "Ubatuba",
+    "aco_bairro": "Zona Leste",
+    "aco_rua": "Rua Whatsapp",
+    "aco_numero": "1450",
+    "aco_cep": "7860986"
+}
+
+{
+    "aco_id": "0",
+    "aco_nome": "casa no campo",
+    "aco_preco": 350.00,
+    "aco_estado": "São Paulo",
+    "aco_cidade": "Cidade do Crime",
+    "aco_bairro": "Bairro da Marginalidade",
+    "aco_rua": "Rua Homer Simpson",
+    "aco_numero": "9976",
+    "aco_cep": "8569741",
+    "pes_id": 1
+}
+
+{
+    "aco_id": "0",
+    "aco_nome": "casa de luxo",
+    "aco_preco": 500.00,
+    "aco_estado": "São Paulo",
+    "aco_cidade": "Osasco",
+    "aco_bairro": "Vila da Desumanidade",
+    "aco_rua": "Rua do Pé Preto",
+    "aco_numero": "9856",
+    "aco_cep": "85792451",
+    "pes_id": 2
+}
